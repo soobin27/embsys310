@@ -11,14 +11,11 @@ It also operates on a battery and is not expected to be changed more than once a
 - The biggest challenge for this device would be the power consumption. As this is a wireless device, it needs to run on a small battery for a very long time for it to be considered a viable product.  Users would not want to replace batteries on their security sensors in their home every month.
 - Another challenge is the size limit of the sensor. It cannot be too large as it would limit the application for the sensor as users would want something discreet and aethestically pleasing. A large clunky sensor would not be desirable.
 - Continuing on the low power challenge would be choosing the best wireless protocol for this device that would satisfy the low power, low throughput, low cost and small footprint requirements. Choosing the right LPWAN technology to base your product on could be a daunting challenge since once chosen, it would be costly to switch or upgrade later on.
-- To minimize power consumption, it would be best to minimize the wireless communication between the security sensor and the base station. Perhaps only send a signal when a change in state is detected.
+- To minimize power consumption, it would be best to minimize the wireless communication between the security sensor and the base station. It would only send a signal when a change in state is detected and in case of communication failure, it would repeat until base station acknowledges that the change in state has been recognized.
     - I would use five states:
      - Door open
      - Door closed
      - Door closed security set
      - Low battery
      - Fault
-- This device would not work if there is a power outage or base station failure. A back up contingency would be to add a small speaker that rings if it does not get an acknowledge signal from base station in 3 seconds to alert of a potential unauthorized door open from the Door closed security set state.
 
-  - Even when state has not changed, I would build a routine that confirms the assumption of each state within the embedded device. This would not trigger the wireless module but just a check of each state periodically.
-  - Another feature would be a trigger that can be sent from base station to confirm the each state. It could be a periodic trigger starting from base station or user triggered. 
