@@ -1,1 +1,1 @@
-![Image of Yaktocat](https://github.com/soobin27/embsys310/blob/main/assignment01/Assignment01.png)
+![Image of Hello World](https://github.com/soobin27/embsys310/blob/main/ImageFolder/Assignment01.png)
