@@ -1,7 +1,9 @@
 # embsys310
 
 I would like to discuss the Ring security contact sensor. IoT seems to be enabling a plethora of new consumer security devices that help consumers keep their homes safe. I have a Ring video doorbell device and some wifi cameras that I set up for home security.
-I find them very useful and I can easily see this market growing exponentially for the next 10 years. But I am not a market analyst :), I will leave it at that.
+
+I find them very useful and I can easily see this market growing exponentially for the next 10 years. But I am not a market analyst :)
+
 This sensor detects when a door or window is open and sends a signal wirelessly to its base station which is connected to the cloud that sends a push a notification to the user's app.
 It also operates on a battery and is not expected to be recharged more than once a year or so.
 
