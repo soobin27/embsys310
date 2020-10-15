@@ -1,8 +1,8 @@
 # embsys310
 
-I would like to discuss the Amazon Fire Stick.
+I would like to discuss the Ring security contact sensor.
+This sensor detects when a door is open and sends a signal wirelessly to its base station which is connected to the cloud that pushes a notification to the user's app.
 
-This powerful little device has many different functions on a small form factor that can stream high definition videos to your television via HDMI.
-My guess is that it has an ARM Cortex processor.
-The design challenges are being able to provide the full resources of the hardware available to third party apps such as Netflix or Youtube in the most efficient way in terms of total device cost, size and thermal considerations.
-
+if (isAwesome){
+  return true
+}
