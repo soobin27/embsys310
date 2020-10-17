@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU20_Tamer\Assignments\Module01_A01\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --backend -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU20_Tamer\Assignments\Module01_A01\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Soobin\Desktop\embsys310\assignment01\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" --backend -f "C:\Users\Soobin\Desktop\embsys310\assignment01\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU20_Tamer\Assignments\Module01_A01\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\tameraw\OneDrive\Documents\Education\UW_Embedded_Certificate\01_EMBSYS100B_AU20_Tamer\Assignments\Module01_A01\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Soobin\Desktop\embsys310\assignment01\Hello_World\EWARM\settings\Hello_World.Hello_World.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Soobin\Desktop\embsys310\assignment01\Hello_World\EWARM\settings\Hello_World.Hello_World.driver.xcl" 
 
 @echo off 
 :end
