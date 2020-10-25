@@ -29,3 +29,14 @@ a) What is the value of “counter” in the “Locals” window after increment
 b) Please note down if the N and/or V flags are set in the APSR register. And explain why.
 - N flag is set 
 - V flag is set
+
+5. Move the “counter’ variable outside of main (at the top of the file):
+a) What is the scope of the variable “counter”?
+- counter becomes a global variable
+
+b) Is it still visible in the “Locals” view?
+- 
+
+c) In which window view can we track “counter” now?
+
+d) What is the address of the “counter” variable in memory?
