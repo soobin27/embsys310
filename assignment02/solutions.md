@@ -43,3 +43,7 @@ c) In which window view can we track “counter” now?
 
 d) What is the address of the “counter” variable in memory?
 - 0x20000000 is the address of counter variable in memory
+
+6. Change the source code to the following, then run the program in the simulator:
+a) What is the value of “counter” at the end of the program (halting at the return 0 statement)
+
