@@ -2,10 +2,11 @@
 only once to increment “counter”. 
 
 a) What is the value of the “counter” from the “Locals” window?
-- 2147483647
+- -2147483648
 
 b) What is the value of the “counter” in the “Registers” window?
-- 0X7FFFFFFF
+- 0X80000000
 
 c) Please note down if the N and/or V flags are set in the APSR register. And explain why.
-- none of the flags are set. The reason the N flag is not set is because it is not a negative number. The reason v flag is also not set is because incrementing by one did not cause overflow.
+- N flag is set because the number turned negative
+- V flag is also set because incrementing it by one caused overflow into negative value
