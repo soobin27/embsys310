@@ -46,4 +46,24 @@ d) What is the address of the “counter” variable in memory?
 
 6. Change the source code to the following, then run the program in the simulator:
 a) What is the value of “counter” at the end of the program (halting at the return 0 statement)
+- Value of counter is 4
+
+b) Explain why the counter value has changed?
+- The global variable counter is stored at location 0x20000000. pointer p_int was set to the same location as where counter is stored with first line in main(), then the value that the p_int was pointing to was incremented 3 times, plus the counter++. This incremented the value stored at 0x200000000 four times resulting in the counter having numeric value of 4.
+
+7. Change the setting of IAR to run the same program on the evaluation board:
+
+a) What is the address where “counter” is stored?
+- 0x20000000
+
+b) Is the “counter” variable stored in RAM or ROM?
+- STM32L475xx devices feature 128Kbyte of embedded SRAM which is split into two blocks.
+  - 96Kbyte mapped at address 0x2000 0000 (SRAM1)
+  - 32Kbyte mapped at address 0x1000 0000 with hardware parity check (SRAM2)
+  - Counter is stored in RAM 0x2000 0000
+ 
+c) What is the value of “counter” at the end of the program (halting at the return 0 statement).
+- Final value of counter is 4
+
+
 
