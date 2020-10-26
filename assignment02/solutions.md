@@ -57,10 +57,11 @@ a) What is the address where “counter” is stored?
 - 0x20000000
 
 b) Is the “counter” variable stored in RAM or ROM?
+- Counter is stored in RAM
 - STM32L475xx devices feature 128Kbyte of embedded SRAM which is split into two blocks.
   - 96Kbyte mapped at address 0x2000 0000 (SRAM1)
   - 32Kbyte mapped at address 0x1000 0000 with hardware parity check (SRAM2)
-  - Counter is stored in RAM 0x2000 0000
+
  
 c) What is the value of “counter” at the end of the program (halting at the return 0 statement).
 - Final value of counter is 4
