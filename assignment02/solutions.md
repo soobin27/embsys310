@@ -58,6 +58,7 @@ a) What is the address where “counter” is stored?
 
 b) Is the “counter” variable stored in RAM or ROM?
 - Counter is stored in RAM
+- You cannot write to a ROM once it is locked
 - STM32L475xx devices feature 128Kbyte of embedded SRAM which is split into two blocks.
   - 96Kbyte mapped at address 0x2000 0000 (SRAM1)
   - 32Kbyte mapped at address 0x1000 0000 with hardware parity check (SRAM2)
