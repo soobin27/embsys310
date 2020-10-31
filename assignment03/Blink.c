@@ -14,7 +14,7 @@
 
 int main()
 {
-int counter = 0;
+volatile int counter = 0;
     RCC_AHB2ENR |= 0x1; // RCC_AHB2ENR: Enable clock to GPIOA
     GPIOA_MODER = 0xABFFF7FF;           // Set GPIOA to General Purpose output mode
    while (1)
