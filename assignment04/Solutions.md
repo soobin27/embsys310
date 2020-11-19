@@ -6,8 +6,9 @@
   
   b. What were the instructions produced when writing to the GPIOx_ODR without using bit-banding?
   
-  - LDR.N   R0, [PC, 0x4C]
+  - LDR.N   R0, [PC, #0x54]
   - LDR     R1, [R0]  
-  - BICS. W R1, [R1, #53687092]
+  - ORRS.W R1, R1, #1
   - STR     R1, [R0]
-  
+
+
