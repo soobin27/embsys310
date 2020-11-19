@@ -3,8 +3,11 @@
   - MOV     R0, #1
   - LDR.N   R1, [PC, 0x4C]  
   - STR     R0, [R1]
+  
   b. What were the instructions produced when writing to the GPIOx_ODR without using bit-banding?
-  - LDR.N
-  - LDR
-  - ORRS. W
-  - STR
+  
+  - LDR.N   R0, [PC, 0x4C]
+  - LDR     R1, [R0]  
+  - BICS. W R1, [R1, #53687092]
+  - STR     R1, [R0]
+  
