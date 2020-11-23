@@ -28,16 +28,5 @@
 - When I passed 7 arguments to func1, the compiler stored assigned each "extra" arguments to memory by storing first R0 to memory location in SP offset by 2 bytes.
 - Then then the next memory was offset by 1, then finally the memory location in SP was used to store the last "extra" argument.
 
-## 3. Following the queue data structure approach, design, implement and test a stack data structure:
-a. The following is the list of requirements:
-i. The stack should have a predefined size
-ii. The stack supports “int” data types.
-iii. Provide a function to initialize the stack internals.
-iv. Provide a function to push an element onto the stack
-v. Provide a function to pop an element off the stack.
-vi. Provide a function that returns 1 if stack is empty.
-vii. Provide a function that returns 1 if stack is full.
-b. Provide a list of the test cases and their implementation inside of main.c
-c. Separate the stack code from the rest of the test code (create stack.h & stack.c)
 
 
