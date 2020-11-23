@@ -26,7 +26,7 @@
   
 #### d. Any other observations?
 - When I passed 7 arguments to func1, the compiler stored assigned each "extra" arguments to memory by storing first R0 to memory location in SP offset by 2 bytes.
-- Then then the next memory was offset by 1, then finally the memory location in SP was used to store the last "extra" argument.
+- Then then the next memory was offset by 1 byte from location in SP, then finally the memory location in SP was used to store the last "extra" argument.
 
 
 
