@@ -1,8 +1,8 @@
-int main()
+// returns 1 for little endian, 0 for big endian
+
+int check_for_endianness()
 {
-  int x = 1;
-
-  char *y = (char*)&x;
-
-  printf("%c\n",*y+48);
+  unsigned int x = 1;
+  char *c = (char*) &x;
+  return (int)*c;
 }
