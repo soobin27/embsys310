@@ -8,5 +8,5 @@
   R0 has address 0x200003F4, R1 has address 0x200003F0
   c Share a screen shot of the local variables inside of “main” after the function swap_pointer() returns showing the values of the pointers and what they are pointing to (similar to the picture below).
   
-  ![Image of Hello World](https://github.com/soobin27/embsys310/blob/main/ImageFolder/Screenshot 2020-12-02 221142.jpg)
+  ![Image of Hello World](https://github.com/soobin27/embsys310/blob/main/ImageFolder/solution5.jpg)
   
