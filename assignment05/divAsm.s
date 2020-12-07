@@ -1,6 +1,7 @@
 /*******************************************************************************
 File name       : divAsm.s
 Description     : Assembly language function for division by 2
+Pretty much took your sqrAsm.s and modified it
 *******************************************************************************/
 
     EXTERN PrintString  // PrintString is defined outside this file.
