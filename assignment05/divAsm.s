@@ -54,7 +54,7 @@ divAsm
     BL  PrintString     // call PrintString to print the string
     POP {R0,LR}         // Pop R0 and LR from stack
     MOV R1, R0          // R1 = R0
-    MOV R2, #2          // assign 2 to R2 as divider
+    MOV R2, #2          // assign 2 to R2
     SDIV R0, R1, R2     // R0 = R1 / 2 
     BX LR               // return (with function result in R0)
 
