@@ -12,10 +12,9 @@ Parameters      : R0: integer val
 Return value    : R0
 *******************************************************************************/
 
-// The main function passes addresses of char1 and char2 which contain a character each
+// The main function passes addresses of char1 and char2
 // passed through R0 and R1 to the function swapChar
-// The biggest challenge in implementing in assembly for me was the fact that
-// a character is only half a byte but STR instruction stores word
+
 swapChar
     CMP	        R0, R1          // compare value of R0 and R1
     BNE 	swap            // branch if not equal, skip to label swap
