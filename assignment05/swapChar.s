@@ -12,8 +12,10 @@ Parameters      : R0: integer val
 Return value    : R0
 *******************************************************************************/
 
-// The main function passes addresses of char1 and char2
+// The main function passes char1 and char2 which contain a character each
 // passed through R0 and R1 to the function swapChar
+
+// For some reason in the Tera Term output, PrintString function printed extra letter. Did not have time to debug...
 
 swapChar
     CMP	        R0, R1          // compare value of R0 and R1
