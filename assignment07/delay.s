@@ -1,4 +1,5 @@
 /*******************************************************************************
+Assignment 6.2
 File name       : delay.s
 Description     : Assembly language function for controlling the user LED
 *******************************************************************************/   
