@@ -1,17 +1,15 @@
 #include"stm32l475xx.h"
 #include"system_stm32l4xx.h"
-/* 
-#define GPIOA_BASE 0x48000000
-#define RCC_BASE 0x40021000
-#define RCC_AHB2ENR (*((unsigned int*)(RCC_BASE + 0x4C)))
-#define GPIOA_MODER (*((unsigned int*)(GPIOA_BASE + 0x0)))
-#define GPIOA_ODR (*((unsigned int*)(GPIOA_BASE+ 0x14)))
-*/
+
+/* ************************************************************************
+*****   ASSIGNMENT 6.1 USE CMSIS TO IMPLEMENT CODE TO BLINK USER LED1*****
+**************************************************************************/
+
 void delay(void);                       // delay function prototype
 void delay(void)                        // delay function
 {
-    uint32_t counter = 0;
-    while (counter < 50000)
+    uint32_t counter = 0;               // delay counter
+    while (counter < 50000)             // while counter is less than duration value
     {
         counter++;
     }
